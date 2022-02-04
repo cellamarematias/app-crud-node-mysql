@@ -31,4 +31,3 @@ pool.getConnection((err, connection) => {
 pool.query = promisify(pool.query); // con esto puedo usar promises -> el async await
 
 module.exports = pool; 
-
